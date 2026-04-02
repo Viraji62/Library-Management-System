@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LMS - Library Management System</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+
+  <div id="app">
+    <!-- Views render their HTML here -->
+    <div style="display:flex;align-items:center;justify-content:center;height:100vh;color:#fff;font-size:18px;">
+      Loading LMS...
+    </div>
+  </div>
+
+  <!-- ===== MODELS ===== -->
+  <script src="js/models/UserModel.js"></script>
+  <script src="js/models/BookModel.js"></script>
+
+  <!-- ===== VIEWS ===== -->
+  <script src="js/views/AuthView.js"></script>
+  <script src="js/views/DashboardView.js"></script>
+  <script src="js/views/SearchView.js"></script>
+  <script src="js/views/OtherViews.js"></script>
+
+  <!-- ===== CONTROLLERS ===== -->
+  <script src="js/controllers/AuthController.js"></script>
+  <script src="js/controllers/BookController.js"></script>
+  <script src="js/controllers/AppController.js"></script>  <!-- boots the app -->
+
+</body>
+</html>
