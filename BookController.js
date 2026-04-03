@@ -1,11 +1,3 @@
-// ============================================================
-//  CONTROLLER: AppController  (Main Router)
-//  Responsibility: Initialize all MVC components and handle
-//  page routing. This is the entry point of the application.
-//
-//  MVC FLOW:
-//    User Action → Controller → Model (data) → View (render)
-// ============================================================
 
 class AppController {
 
@@ -89,9 +81,7 @@ class AppController {
   }
 }
 
-// ============================================================
 //  BOOT: Start the application when DOM is ready
-// ============================================================
 document.addEventListener('DOMContentLoaded', () => {
   const app = new AppController();
   app.start();
